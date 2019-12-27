@@ -1,0 +1,5 @@
+interface Model {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}

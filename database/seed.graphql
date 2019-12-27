@@ -1,0 +1,17 @@
+mutation {
+  product1: createProduct(data: {name: "Product 1", price: 10}) {
+    id
+  }
+  product2: createProduct(data: {name: "Product 2", price: 20}) {
+    id
+  }
+  product3: createProduct(data: {name: "Product 3", price: 30}) {
+    id
+  }
+  product4: createProduct(data: {name: "Product 4", price: 40}) {
+    id
+  }
+  product5: createProduct(data: {name: "Product 5", price: 50}) {
+    id
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "prisma-with-graphql-yoga-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NoCountryForGeeks/prisma-with-graphql-yoga-server.git",
+  "author": "<ivanrodricalleja@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "prisma-client-lib": "^1.34.10"
+  },
+  "scripts": {
+    "start:server": "node ./server/index.js"
+  }
+}

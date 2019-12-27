@@ -1,0 +1,8 @@
+type OrderLine implements Model {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  quantity: Int!
+  order: Order!
+  product: Product! @relation(link: INLINE)
+}

@@ -1,0 +1,8 @@
+type Customer implements Model {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  name: String! @unique
+  address1: String!
+  order: [Order!]! @relation(link: INLINE)
+}

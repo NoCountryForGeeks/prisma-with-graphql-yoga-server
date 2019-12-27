@@ -1,0 +1,7 @@
+type Product implements Model {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  name: String! @unique
+  price: Int!
+}

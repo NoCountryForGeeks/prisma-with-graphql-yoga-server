@@ -1,0 +1,8 @@
+type Order implements Model {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  orderStatus: OrderStatus!
+  customer: Customer!
+  orderLines: [OrderLine!]! @relation(link: INLINE)
+}
